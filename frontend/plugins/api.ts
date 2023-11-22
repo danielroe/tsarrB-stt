@@ -20,7 +20,7 @@ declare module '#app' {
   interface NuxtApp extends PluginsInjections {}
 }
 
-declare module 'nuxt/dist/app/nuxt' {
+declare module '#app' {
   interface NuxtApp extends PluginsInjections {}
 }
 
